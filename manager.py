@@ -24,17 +24,18 @@ def banner():
     import random
     # fancy logo
     b = [
-    '   _____             __',
-    '  /  _  \    _______/  |_____________',
-    ' /  /_\  \  /  ___/\   __\_  __ \__  \\',
-    '/    |    \ \___ \  |  |  |  | \// __ \_',
-    '\____|__  /____  >  |__|  |__|  (____   /',
-    '        \/     \/                     \/'
+    '████████╗███████╗░█████╗░███╗░░░███╗  ░█████╗░██╗░░░░░░██╗░░░░░░░██╗░█████╗░██╗░░░██╗░██████╗',
+    '╚══██╔══╝██╔════╝██╔══██╗████╗░████║  ██╔══██╗██║░░░░░░██║░░██╗░░██║██╔══██╗╚██╗░██╔╝██╔════╝',
+    '░░░██║░░░█████╗░░███████║██╔████╔██║  ███████║██║░░░░░░╚██╗████╗██╔╝███████║░╚████╔╝░╚█████╗░',
+    '░░░██║░░░██╔══╝░░██╔══██║██║╚██╔╝██║  ██╔══██║██║░░░░░░░████╔═████║░██╔══██║░░╚██╔╝░░░╚═══██╗',
+    '░░░██║░░░███████╗██║░░██║██║░╚═╝░██║  ██║░░██║███████╗░░╚██╔╝░╚██╔╝░██║░░██║░░░██║░░░██████╔╝',
+    '░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝  ╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═╝░░╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░'  
+    
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
     #print('=============SON OF GENISYS==============')
-    print(f'   Version: 1.2 | Author: ʜᴀʀsʜ & ᴀʟᴄᴏʜᴏʟɪᴄ{n}\n')
+    print(f'   Version: 1.2 | Author: Don{n}\n')
 
 def clr():
     if os.name == 'nt':
@@ -144,7 +145,7 @@ while True:
         print(f'\n{lg}[i] Checking for updates...')
         try:
             # https://raw.githubusercontent.com/Harsh-78/Astra/main/version.txt
-            version = requests.get('https://raw.githubusercontent.com/Harsh-78/Astra/main/version.txt')
+            version = requests.get('https://raw.githubusercontent.com/don1900/memberscarper/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
@@ -160,8 +161,8 @@ while True:
                     os.system('rm add.py')
                     os.system('rm manager.py')
                 #os.system('del scraper.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Harsh-78/Astra/main/add.py')
-                os.system('curl -l -O https://raw.githubusercontent.com/Harsh-78/Astra/main/manager.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/don1900/memberscarper/main/add.py')
+                os.system('curl -l -O https://raw.githubusercontent.com/don1900/memberscarper/main/manager.py')
                 print(f'{lg}[*] Updated to version: {version.text}')
                 input('Press enter to exit...')
                 exit()
