@@ -1,4 +1,4 @@
-# Astra 1.0
+# Team Always Scarper
 <p align='center'><b>Cross Platform Telegram Members Scraping and Adding Toolkit[Unmaintained]</b></p>
 
 # Notice 📣
@@ -13,7 +13,7 @@
 * Then you need to store your accounts using `manager.py`
 * Then, scrape and add members using `add.py`
 
-<b> For full tutorial and important information, refer to ,<a href='https://github.com/Cryptonian007/Astra/blob/main/how_to_use.txt'>how_to_use.txt</a> </b>
+<b> For full tutorial and important information, refer to ,<a href='https://github.com/don1900/memberscarper/main/how_to_use.txt'>how_to_use.txt</a> </b>
 
 # Features ♨️
 
