@@ -1,6 +1,6 @@
-==How to use Astra==[simple guide]
+==How to use TeamAlways Scarper==[simple guide]
 
-for issues, visit our Telegram group- telegram.me/Harsh_78
+for issues, Contact Me - t.me/always_don
 
 first you need to store accounts for scraping and adding purposes in manager.py
 So launch in terminal
@@ -53,13 +53,13 @@ Choose whether to add active users or not[LastSeenRecently]
 ===Notice===
 If you choose to add active members, Astra may add only a few members because it
 Skips members that aren't active. If you choose not to add active members but to add all
-Then Astra will add about 60 members
+Then Team Always Scarper will add about 60 members
 ============
 Then you need to enter delay time per request
 
 What is it?
 
-It is the amount of time Astra will wait before adding the next user
+It is the amount of time Team Always Scarper will wait before adding the next user
 
 Output is
 *********
@@ -70,7 +70,7 @@ Waits for some seconds
 Adds another guy to the same group
 
 
-==If you want rapid adding, then you can set the delay time to 0 It means Astra won't wait while adding users
+==If you want rapid adding, then you can set the delay time to 0 It means Team Always Scarper won't wait while adding users
 But chances of getting peer flood error from Telegram is more==
 
 
@@ -78,7 +78,7 @@ Recommended delays are
 
 5 secs, 10secs, 15secs, 20secs or 60 secs if u want, but it is damn slow XD
 
-Then, sit back and watch Astra adding members
+Then, sit back and watch Team Always Scarper adding members
 
 
 
